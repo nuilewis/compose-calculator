@@ -1,6 +1,5 @@
 package com.example.composecalculator.ui.views.composables
 
-import android.widget.Space
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -8,7 +7,6 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.aspectRatio
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -83,7 +81,7 @@ fun Calculator(
                 CalculatorButton(
                     label = "/",
                     modifier = Modifier
-                        .background(color = Orange)
+                        .background(color = Blue)
                         .aspectRatio(1f)
                         .weight(1f),
                     onClick = {
@@ -131,7 +129,7 @@ fun Calculator(
                 CalculatorButton(
                     label = "x",
                     modifier = Modifier
-                        .background(color = Orange)
+                        .background(color = Blue)
                         .aspectRatio(1f)
                         .weight(1f),
                     onClick = {
@@ -179,7 +177,7 @@ fun Calculator(
                 CalculatorButton(
                     label = "-",
                     modifier = Modifier
-                        .background(color = Orange)
+                        .background(color = Blue)
                         .aspectRatio(1f)
                         .weight(1f),
                     onClick = {
@@ -226,7 +224,7 @@ fun Calculator(
                 CalculatorButton(
                     label = "+",
                     modifier = Modifier
-                        .background(color = Orange)
+                        .background(color = Blue)
                         .aspectRatio(1f)
                         .weight(1f),
                     onClick = {
@@ -264,7 +262,7 @@ fun Calculator(
                 CalculatorButton(
                     label = "=",
                     modifier = Modifier
-                        .background(color = Orange)
+                        .background(color = Blue)
                         .aspectRatio(1f)
                         .weight(1f),
                     onClick = {
